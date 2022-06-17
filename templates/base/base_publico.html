@@ -1,0 +1,88 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block base %}
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light border shadow">
+		<div class="container-fluid">
+			<a class="navbar-brand " href="{% url 'index' %}">
+				<img src="{% static 'img/favicon_io/favicon-32x32.png' %}" width="30" height="30"
+					class="mx-1 d-inline-block align-top" alt="">
+				E-Commerce
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenuNavegacao"
+				aria-controls="navbarMenuNavegacao" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarMenuNavegacao">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a href="{%  url 'index' %}" class="nav-link">Início</a>
+					</li>
+					{% if categorias %}
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarCategoriaDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Categorias
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarCategoriaDropdown">
+							{% for categoria in categorias %}
+							<a href="{% url 'categoria' categoria.slug %}" class="dropdown-item">
+								{{ categoria.nome }}
+							</a>
+							{% endfor %}
+						</div>
+					</li>
+					{% endif %}
+					<li class="nav-item">
+						<a href="{% url 'contato' %}" class="nav-link">Contato</a>
+					</li>
+					<li class="nav-item">
+						<a href="{% url 'sobre_a_empresa' %}" class="nav-link">Sobre a Empresa</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav navbar-right">
+					{% if request.user.is_authenticated %}
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarContaDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							{{ request.user.username }}
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarContaDropdown">
+							<a class="dropdown-item" href="#">Minha conta</a>
+							<a class="dropdown-item" href="#">Meus pedidos</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="{% url 'logout' %}">Sair</a>
+						</div>
+					</li>
+					{% else %}
+					<li class="nav-item">
+						<a href="{% url 'login' %}" class="nav-link">
+							Acessar conta
+							<i class="far fa-user-circle"></i>
+						</a>
+					</li>
+					{% endif %}
+					<li class="nav-item">
+						<a href="{% url 'carrinho' %}" class="nav-link active">
+							Carrinho
+							<i class="fas fa-shopping-cart"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<div class="container my-4">
+
+	{% block conteudo %}
+
+	{% endblock conteudo %}
+</div>
+<footer class="bg-light mt-auto text-lg-start bg-light text-muted">
+	<!-- Section: Social media -->
+	<section class="d-flex justify-content-center p-4 border-bottom">
+		<small>Desenvolvido por Sergio Sacchetti Junior</small>
+	</section>
+</footer>
+{% endblock base %}

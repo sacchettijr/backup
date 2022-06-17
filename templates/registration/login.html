@@ -1,0 +1,32 @@
+{% extends 'base/base_login.html' %}
+{% load widget_tweaks %}
+{% load static %}
+{% block baseBody %}
+<form action="" method="post">
+	{% csrf_token %}
+
+	<div class="mb-3">
+		<small>{{ form.username.errors }}</small>
+		<label for="txtUsuario" class="form-label">{{ form.username.label }}</label>
+		{% render_field form.username class+="form-control" %}
+	</div>
+	<div class="mb-3">
+		<small>{{ form.password.errors }}</small>
+		<label for="txtSenha" class="form-label">Senha:</label>
+		{% render_field form.password class+="form-control" %}
+	</div>
+
+	<div class="d-grid gap-2">
+		<button type="submit" class="btn btn-primary d-block">Entrar</button>
+	</div>
+</form>
+{% endblock baseBody %}
+
+{% block baseFooter %}
+<a href="{% url 'recuperar_senha' %}">
+	<small>Esqueceu a senha?</small>
+</a>
+<a href="{% url 'cadastro' %}">
+	<small>Cadastrar conta</small>
+</a>
+{% endblock baseFooter %}

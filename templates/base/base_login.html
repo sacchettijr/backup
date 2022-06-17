@@ -1,0 +1,41 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block base %}
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light border shadow">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="{% url 'index' %}">E-Commerce</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenuNavegacao"
+				aria-controls="navbarMenuNavegacao" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarMenuNavegacao">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<main class="container-fluid mt-5">
+	<div class="row justify-content-center">
+		<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mt-3">
+			<div class="card">
+				<div class="card-header">
+					<h3 class="my-2 text-center">E-Commerce</h3>
+				</div>
+				<div class="card-body">
+					{% block baseBody %}
+					
+					{% endblock baseBody %}
+				</div>
+				<div class="card-footer d-flex justify-content-around">
+					{% block baseFooter %}
+
+					{% endblock baseFooter %}
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+{% endblock base %}

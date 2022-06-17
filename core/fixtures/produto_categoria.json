@@ -1,0 +1,112 @@
+[
+	{
+		"model": "core.Categoria",
+		"pk": 1,
+		"fields": {
+			"nome": "Informática",
+			"slug": "informatica",
+			"ativo": true,
+			"descricao": "Veja Ofertas de Informática, Mouses e Teclados, Notebooks e Tablets, Pen Drive, Caixas de Som, Fones de Ouvido, HD Externo e muito mais.",
+			"imagem_destaque": "produto/categoria/Informatica-300x150.jpg"
+		}
+	},
+	{
+		"model": "core.Categoria",
+		"pk": 2,
+		"fields": {
+			"nome": "Mercado",
+			"slug": "mercado",
+			"ativo": false,
+			"descricao": "Toda semana contamos com ofertas imperdíveis e cupons de desconto para serem resgatados. Não deixe de conferir os produtos de mercado.",
+			"imagem_destaque": "produto/categoria/Mercado-300x150.jpeg"
+		}
+	},
+	{
+		"model": "core.Categoria",
+		"pk": 3,
+		"fields": {
+			"nome": "Smartphones",
+			"slug": "smartphones",
+			"ativo": true,
+			"descricao": "Os menores preços em Celulares e Smartphones com entrega garantida você encontra aqui. Confira!",
+			"imagem_destaque": "produto/categoria/Smartphone-300x150.png"
+		}
+	},
+	{
+		"model": "core.Categoria",
+		"pk": 4,
+		"fields": {
+			"nome": "Eletrodomésticos",
+			"slug": "eletrodomesticos",
+			"ativo": true,
+			"descricao": "As melhores ofertas de eletrodomésticos que a sua casa precisa! Refrigeradores, freezers, fogões, micro-ondas, lavadoras e muito mais.",
+			"imagem_destaque": "produto/categoria/Eletrodomestico-300x150.png"
+		}
+	},
+	{
+		"model": "core.Categoria",
+		"pk": 5,
+		"fields": {
+			"nome": "Móveis",
+			"slug": "moveis",
+			"ativo": false,
+			"descricao": "Está é a maior loja de móveis e artigos de decoração online do Brasil. Temos de tudo para sua casa.",
+			"imagem_destaque": "produto/categoria/Movel-300x150.jpg"
+		}
+	},
+	{
+		"model": "core.Categoria",
+		"pk": 6,
+		"fields": {
+			"nome": "Livros",
+			"slug": "livros",
+			"ativo": true,
+			"descricao": "Compre livros online com ótimos preços e dos mais variados gêneros para você ler : Romance, HQs, Autodesenvolvimento, Infantil.",
+			"imagem_destaque": "produto/categoria/Livro-300x150.jpg"
+		}
+	},
+	{
+		"model": "core.Categoria",
+		"pk": 7,
+		"fields": {
+			"nome": "Beleza e Saúde",
+			"slug": "beleza-e-saude",
+			"ativo": true,
+			"descricao": "Aqui também tem as melhores oportunidades nos produtos de beleza, saúde e perfume para quem gosta de se cuidar.",
+			"imagem_destaque": "produto/categoria/Beleza-e-saude-300x150.jpg"
+		}
+	},
+	{
+		"model": "core.Categoria",
+		"pk": 8,
+		"fields": {
+			"nome": "Cozinha e Culinária",
+			"slug": "cozinha-e-culinaria",
+			"ativo": true,
+			"descricao": "Uma linha repleta de produtos com variedades para cozinha e culinária.",
+			"imagem_destaque": "produto/categoria/Cozinha-e-culinária-300x150.jpg"
+		}
+	},
+	{
+		"model": "core.Categoria",
+		"pk": 9,
+		"fields": {
+			"nome": "Esporte",
+			"slug": "esporte",
+			"ativo": true,
+			"descricao": "A maior loja de artigos esportivos. Produtos de fitness, musculação, ciclismo, futebol, corrida, trilha, natação, surf, tênis, pesca e muito mais.",
+			"imagem_destaque": "produto/categoria/Esporte-300x150.jpg"
+		}
+	},
+	{
+		"model": "core.Categoria",
+		"pk": 10,
+		"fields": {
+			"nome": "Lazer",
+			"slug": "lazer",
+			"ativo": true,
+			"descricao": "Lazer corresponde ao tempo de folga, de passatempo, de ócio, de descanso, distração ou entretenimento, de uma pessoa.",
+			"imagem_destaque": "produto/categoria/Lazer-300x150.jpg"
+		}
+	}
+]

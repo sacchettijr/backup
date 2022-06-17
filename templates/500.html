@@ -1,0 +1,29 @@
+{% extends 'base/base_publico.html' %}
+{% load static %}
+{% block injetarCSS %}
+<link rel="stylesheet" href="{% static 'src/error.css' %}">
+{% endblock injetarCSS %}
+{% block conteudo %}
+<div class="row">
+	<div class="col-md-12">
+		<div class="error-template bg-light">
+			<h1>
+				Oops!</h1>
+			<h2>Houve um erro na aplicação </h2>
+			<div class="error-details">
+				Desculpe, ocorreu um erro. Tente novamente mais tarde.
+			</div>
+			<div class="error-actions">
+				<a href="{% url 'index' %}" class="btn btn-primary btn-lg">
+					<span class="glyphicon glyphicon-home"></span>
+					Ir para o início
+				</a>
+				<a href="{% url 'contato' %}" class="btn btn-default btn-lg">
+					<span class="glyphicon glyphicon-envelope"></span>
+					Contate o suporte
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock conteudo %}

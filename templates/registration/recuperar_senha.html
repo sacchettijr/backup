@@ -1,0 +1,20 @@
+{% extends 'base/base_login.html' %}
+{% load static %}
+{% block baseBody %}
+<form action="" method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="txtEmail" class="form-label">E-mail:</label>
+        <input type="text" class="form-control">
+    </div>
+    <div class="d-grid gap-2">
+        <button type="submit" class="btn btn-primary d-block">Recuperar</button>
+    </div>
+</form>
+{% endblock baseBody %}
+
+{% block baseFooter %}
+<a href="{% url 'login' %}">
+    <small>Voltar</small>
+</a>
+{% endblock baseFooter %}

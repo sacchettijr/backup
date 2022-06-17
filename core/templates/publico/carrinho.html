@@ -1,0 +1,16 @@
+{% extends 'base/base_publico.html' %}
+{% load static %}
+{% block conteudo %}
+<div class="row p-5 bg-light border">
+	<h2 class="text-center">Meu carrinho</h2>
+	{% if carrinho %}
+		<div class="row p-5 bg-light">
+			{% for itens in carrinho %}
+			<p class="text-muted">{{ itens.nome }}</p>
+			{% endfor %}
+		</div>
+	{% else %}
+		<p class="text-center">O carrinho está vazio.</h1>
+	{% endif %}
+</div>	
+{% endblock conteudo %}

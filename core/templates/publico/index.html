@@ -1,0 +1,39 @@
+{% extends 'base/base_publico.html' %}
+{% load static %}
+{% block conteudo %}
+<div class="row d-flex justify-content-center">
+	{% if categorias %}
+	{% for categoria in categorias %}
+	<div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-3">
+		<div class="card text-center" style="width: 100%;">
+			{% if categoria.imagem_destaque.url != null %}
+			<img src="{{ categoria.imagem_destaque.url }}" class="card-img-top"
+			     alt="Imagem da categoria {{ categoria.pk }}">
+			{% else %}
+			<img src="{% static 'img/300x150.png' %}" class="card-img-top"
+			     alt="Imagem da categoria {{ categoria.pk }}">
+			{% endif %}
+			<div class="card-body">
+				<h5 class="card-title">{{ categoria.nome }}</h5>
+				<p class="card-text">
+					{% if categoria.descricao %}
+					{{ categoria.descricao|truncatechars:150 }}
+					{% endif %}
+				</p>
+			</div>
+			<div class="card-footer">
+				<a href="{% url 'categoria' categoria.slug %}" class="btn btn-primary">Ver mais</a>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+	{% else %}
+	<div class="col-6 mt-3">
+		<h4 class="alert alert-dark text-center" role="alert">
+			Nenhum item recuperado
+		</h4>
+	</div>
+</div>
+{% endif %}
+</div>
+{% endblock conteudo %}

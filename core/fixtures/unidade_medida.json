@@ -1,0 +1,11 @@
+[
+	{"model": "core.UnidadeMedida", "pk": 1, "fields": {"sigla": "UN", "nome": "Unidade"}},
+	{"model": "core.UnidadeMedida", "pk": 2, "fields": {"sigla": "KG", "nome": "Quilograma"}},
+	{"model": "core.UnidadeMedida", "pk": 3, "fields": {"sigla": "GM", "nome": "Grama"}},
+	{"model": "core.UnidadeMedida", "pk": 4, "fields": {"sigla": "CX", "nome": "Caixa"}},
+	{"model": "core.UnidadeMedida", "pk": 5, "fields": {"sigla": "FD", "nome": "Fardo"}},
+	{"model": "core.UnidadeMedida", "pk": 6, "fields": {"sigla": "MT", "nome": "Metro"}},
+	{"model": "core.UnidadeMedida", "pk": 7, "fields": {"sigla": "CM", "nome": "Centimetro"}},
+	{"model": "core.UnidadeMedida", "pk": 8, "fields": {"sigla": "LT", "nome": "Litro"}},
+	{"model": "core.UnidadeMedida", "pk": 9, "fields": {"sigla": "ML", "nome": "Mililitro"}}
+]

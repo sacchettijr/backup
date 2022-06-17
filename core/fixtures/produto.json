@@ -1,0 +1,258 @@
+[
+	{
+		"model": "core.Produto",
+		"pk": 1,
+		"fields": {
+			"ativo": true,
+			"nome": "Teclado Mecânico Gamer T-Dagger Bora, RGB, Switch Outemu Blue, ABNT2 - T-TGK315-BLUE",
+			"slug": "teclado-mecanico",
+			"valor_unitario": 189.90,
+			"descricao": "Teclado Mecânico Gamer T-Dagger Bora Teclado no formato TKL sem o teclado numérico para resultar em mais espaço na mesa para os movimentos do mouse. Inclui iluminação RGB individual por tecla que pode ser customizada tanto diretamente no teclado ou pelo software. O design elegante com as teclas flutuantes trazem estilo ao Bora sem comprometer a estética minimalista. O Bora também é de fácil transporte devido ao seu cabo removível.",
+			"categoria": 1,
+			"altura": 5,
+			"largura": 15,
+			"comprimento": 35,
+			"peso": 0.87
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 2,
+		"fields": {
+			"ativo": true,
+			"nome": "Water Cooler Corsair iCUE H100i PRO XT Hydro Series, 240mm, RGB - CW-9060043-WW",
+			"slug": "water-cooler",
+			"valor_unitario": 849.90,
+			"descricao": "O CORSAIR iCUE H100i RGB PRO XT é um cooler líquido completo para CPU desenvolvido para proporcionar resfriamento extremo com pouco ruído. Acompanha um radiador de 240mm e duas ventoinhas CORSAIR ML120 PWM controláveis entre 400 RPM e 2.400 RPM. Equipado com 16 LEDs RGB com controle individual na cabeça da bomba, o H100i RGB PRO XT é personalizável via software CORSAIR iCUE, o que permite criar efeitos incríveis de iluminação, ajustar a velocidade das ventoinhas e ativar o modo Zero RPM para manter a redução de ruído em baixas temperaturas. Com uma placa fria termicamente otimizada e o design de bomba de operação silenciosa, além da fácil instalação da maioria dos soquetes principais de CPU, o H100i RGB PRO XT combina beleza incomparável e desempenho superior.",
+			"categoria": 1,
+			"altura": 300,
+			"largura": 1200,
+			"comprimento": 2800,
+			"peso": 2
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 3,
+		"fields": {
+			"ativo": true,
+			"nome": "Caixa de Som Gamer Husky Gaming Storm, Preto, 6W, USB / P2, Rainbow - CX-HST-RA",
+			"slug": "caixa-de-som",
+			"valor_unitario": 99.90,
+			"descricao": "A Caixa de Som Gamer Husky Storm oferece alto-falantes de alta qualidade e Potência RMS de 6W, com som nítido e preciso, acompanhados da iluminação Rainbow, que acrescenta mais estilo ao seu setup. A caixa de som gamer é pensada para você ter o som perfeito durante o gameplay de seus jogos online favoritos, como League of Legends, Free Fire, Fortnite e CS:GO.",
+			"categoria": 1,
+			"altura": 1800,
+			"largura": 880,
+			"comprimento": 102,
+			"peso": 1.5
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 4,
+		"fields": {
+			"ativo": true,
+			"nome": "Roteador multilaser wireless gigabit draco ac1200 high power dual band 5 antenas - re017",
+			"slug": "roteador-multilaser",
+			"valor_unitario": 212.50,
+			"descricao": "O Roteador Wireless Draco AC1200 promove uma transmissão sem fio eficiente, dentro de protocolos compatíveis e com capacidade alcance amplificada por suas antenas. O modelo de 5 antenas conta com múltiplas entradas para transmissão direta ao computador ou a propagação eficaz do sinal da internet. Jogos e transmissões de alta performance, otimizados pela concentração e direcionamento a dispositivos específicos.",
+			"categoria": 1,
+			"altura": 30,
+			"largura": 10,
+			"comprimento": 50,
+			"peso": 0.73
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 5,
+		"fields": {
+			"ativo": true,
+			"nome": "PC Gamer NTC Vulcano II 7189 Powered By Asus Intel Core I5-10400, RGB, 8GB, DDR4, SSD 240GB, Linux, Preto - NTC 7189",
+			"slug": "pc-gamer-vulcano",
+			"valor_unitario": 4399.90,
+			"descricao": "Vem equipado com processador Intel Core i5-10400 de 10ª Geração com 6 Núcleos e 12 Threads de 2.90Ghz a 4.30Ghz no modo Turbo, Placa Mãe Asus Prime H510M-E, 8GB de Memoria RAM DDR4 2666 Mhz (1x8GB), SSD de 240GB, Fonte de alimentação de 500W reais com 80 Plus Bronze e PFC Ativo e o Gabinete Odyssey Black.",
+			"categoria": 1,
+			"altura": 130,
+			"largura": 130,
+			"comprimento": 50,
+			"peso": 11.761
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 6,
+		"fields": {
+			"ativo": true,
+			"nome": "Monitor LG 21.5' LED, Full HD, HDMI/VGA, VESA, Ajuste de Ângulo - 22MK400H",
+			"slug": "monitor-lg",
+			"valor_unitario": 879.90,
+			"descricao": "Monitor LG LED 21.5´ Tecnologia que um Monitor para PC pede! O novo Monitor LG 21,5 conta com resolução 1080p Full HD (1920x1080) para melhor definição e mais clareza nas imagens reproduzidas com tela TN proporciona imagens brilhantes que surgem com detalhes vibrantes de qualquer ângulo de visualização. O OnScreen Control permite alterar as configurações do monitor, customizar a tela em até 14 modos, com o Screen Split 2.0. Tenha seu monitor de 21.5 polegadas na parede ou na mesa Instale o Monitor LG de acordo com a sua necessidade. Seja na mesa com ajuste de inclinação para melhor visão ou na parede para melhor uso do seu espaço de trabalho. Garanta já seu Monitor LG aqui no KaBuM!",
+			"categoria": 1,
+			"altura": 39.58,
+			"largura": 18.19,
+			"comprimento": 50.96,
+			"peso": 5.281
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 7,
+		"fields": {
+			"ativo": true,
+			"nome": "Controle Sony Dualshock 4 PS4, Sem Fio, Preto - CUH-ZCT2U",
+			"slug": "controle-sony",
+			"valor_unitario": 399.90,
+			"descricao": "Controle Sony Dualshock 4 Sem fio PS4 Preto - CUH-ZCT2U",
+			"categoria": 1,
+			"altura": 9.8,
+			"largura": 16.2,
+			"comprimento": 5.2,
+			"peso": 0.447
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 8,
+		"fields": {
+			"ativo": true,
+			"nome": "HUB USB 3.0 F3 com 7 Portas USB 2.0, Preto - JC-HUB701",
+			"slug": "hub-usb",
+			"valor_unitario": 25.90,
+			"descricao": "HUB USB 3.0 F3 com 7 Portas USB 2.0, Preto - JC-HUB701",
+			"categoria": 1,
+			"altura": 9.8,
+			"largura": 16.2,
+			"comprimento": 5.2,
+			"peso": 0.132
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 9,
+		"fields": {
+			"ativo": true,
+			"nome": "Samsung Galaxy A32 128GB Violeta 4G - 4GB RAM Tela 6,4” Câm. Quádrupla + Selfie 20MP",
+			"slug": "samsung-galaxy-a32",
+			"valor_unitario": 1349.10,
+			"descricao": "Tenha uma solução para o seu dia a dia sem deixar nada para trás com o Galaxy A32 da Samsung. Realize fotos especiais e únicas com o conjunto de 4 câmeras na parte de trás do aparelho. Divirta-se e compartilhe seus momentos especiais ao fotografar com a câmera de selfie de 20MP. A tela de 6,4 com resolução FHD+ deste smartphone oferece uma experiência de visualização imersiva, seja ao ver seus vídeos, fotos ou simplesmente acessar as redes sociais. Oferece um processador Octa-Core e 4GB de memória RAM para que você tenha tudo ao alcance dos dedos de maneira mais fácil. O armazenamento interno de 128GB entrega muita conveniência para salvar seus documentos de maneira segura. E se mesmo assim achar pouco, você pode usar um cartão MicroSD de até 1TB para aumentar essa capacidade. Fique sempre conectado com a tecnologia 4G e Wi-Fi em um aparelho dual chip! Tenha bateria para o dia todo, afinal estamos falando de 5000mAh, além de contar com carregamento rápido de 15W. A cor violeta destaca o design moderno do produto e combina perfeitamente com seu dia a dia.",
+			"categoria": 3,
+			"altura": 15.8,
+			"largura": 7.36,
+			"comprimento": 0.84,
+			"peso": 364
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 10,
+		"fields": {
+			"ativo": true,
+			"nome": "iPhone 11 Apple 128GB Branco 6,1” 12MP iOS",
+			"slug": "iphone-11",
+			"valor_unitario": 1349.10,
+			"descricao": "Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla. Tire fotos incríveis com pouca luz usando o modo Noite. Veja cores fiéis em fotos, vídeos e jogos na tela Liquid Retina de 6,1 polegadas***. Leve o desempenho sem precedentes do chip A13 Bionic para seus games, realidade aumentada e fotografia. Faça muito e recarregue pouco com a bateria para o dia todo**. E conte com resistência à água de até dois metros por até 30 minutos*.Avisos legais:*O iPhone 11 é resistente a respingos, água e poeira e foi testado em condições controladas em laboratório, classificado como IP68 segundo a norma IEC 60529 (profundidade máxima de até dois metros por até 30 minutos). A resistência a respingos, água e poeira não é uma condição permanente e pode diminuir com o tempo. Não tente recarregar um iPhone molhado. Veja instruções no Manual do Usuário para limpeza e secagem. Danos decorrentes de contato com líquidos não estão incluídos na garantia.**A duração da bateria varia de acordo com o uso e a configuração. Consulte o site do fabricante para obter mais informações.***A tela tem cantos arredondados. Quando medida como um retângulo, a tela do iPhone 11 tem 6,06 polegadas na diagonal. A área real de visualização é menor.****Carregadores sem fio padrão Qi vendidos separadamente.*****Como parte dos esforços da Apple para atingir seus objetivos ambientais, o iPhone 11 não vem com adaptador de energia nem EarPods. Você pode usar o adaptador de energia e os fones de ouvido da Apple que já tenha ou comprar esses acessórios separadamente.",
+			"categoria": 3,
+			"altura": 15.09,
+			"largura": 7.57,
+			"comprimento": 0.83,
+			"peso": 194
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 11,
+		"fields": {
+			"ativo": true,
+			"nome": "Motorola Moto E20 32GB Cinza 4G - 2GB RAM Tela 6,5” Câm. Dupla + Selfie 5MP",
+			"slug": "moto-20",
+			"valor_unitario": 799.99,
+			"descricao": "Tenha tecnologia e qualidade mais próximos de você com o smartphone Moto e20 Cinza da Motorola. A linha Moto E traz um aparelho com memória de 32GB para você guardar fotos, vídeos e lembranças inesquecíveis sem se preocupar em ficar sem espaço. A memória RAM de 2GB, a tecnologia 4G e o processador Octa-Core facilitam na hora de usar aplicativos para as tarefas do dia a dia. Enquanto a tela Max Vision de 6,5\" é HD+ e possui uma definição incrível para que você veja os vídeos e fotos capturados pela câmera traseira dupla de 13MP + 2MP ou a câmera de selfie de 5MP. Ah, se quiser utilizar mais que um chip nesse smartphone, fique tranquilo pois o Moto e20 é dual chip. Além disso, ele conta com slot híbrido, ou seja, pode ser utilizado para o cartão de memória (MicroSD), podendo chegar até 1TB de memória interna ou ser utilizado com o chip da operadora.",
+			"categoria": 3,
+			"altura": 17.7,
+			"largura": 9.5,
+			"comprimento": 5,
+			"peso": 344
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 12,
+		"fields": {
+			"ativo": true,
+			"nome": "Xiaomi Redmi 9 64GB Cinza 4G Octa-Core - 4GB 6,53” Câm. Quádrupla + Selfie 8MP",
+			"slug": "xiaomi-redmi-9",
+			"valor_unitario": 1259.99,
+			"descricao": "Tenha em suas mãos um smartphone para trazer versatilidade à fotografia mobile! O Redmi 9 da Xiaomi produz fotos de nível profissional, pois oferece um conjunto de 04 câmeras na parte de trás do aparelho, permitindo que você capte as melhores fotografias em qualquer ambiente. Faça fotos criativas e compartilhe nas redes sociais, através da câmera de selfie de 8MP. Sua tela de 6,53\" LCD IPS e resolução FHD+ oferecem a melhor experiência para você ver seus conteúdos de maneira mais imersiva e com visual impressionante. Com 64GB de armazenamento interno, ele é ideal para guardar suas fotos, músicas ou vídeos! E se mesmo assim achar pouco, você pode usar um cartão MicroSD de até 512GB para aumentar essa capacidade. Este produto tem um processador Octa-Core e 4GB de memória RAM, e assim potencializar seus jogos favoritos. Fique sempre conectado na internet através da tecnologia 4G ou Wi-Fi em um aparelho dual chip! Tenha bateria para o dia todo, afinal estamos falando de 5020mAh, além de contar com suporte para carregamento rápido de 18W. Esse celular entrega proteção personalizada com impressão digital, deixando seus conteúdos e dados confidenciais protegidos. A cor cinza mantém o charme clássico e minimalista com aspectos modernos e tendências atuais.",
+			"categoria": 3,
+			"altura": 17.2,
+			"largura": 9,
+			"comprimento": 5.1,
+			"peso": 502
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 13,
+		"fields": {
+			"ativo": true,
+			"nome": "Apple iPhone 13 Pro Max 128GB Azul-Sierra - Tela 6,7” 12MP iOS",
+			"slug": "apple-iphone-13",
+			"valor_unitario": 8999.10,
+			"descricao": "iPhone 13 Pro Max. O maior upgrade do sistema de câmera Pro até hoje. Tela Super Retina XDR com ProMotion para uma experiência mais rápida e responsiva. Chip A15 Bionic com velocidade impressionante. 5G ultrarrápido*. Design resistente. E a maior duração de bateria em um iPhone**. Avisos legais: *É preciso ter um plano de dados. 5G só está disponível em alguns países e por meio de determinadas operadoras. As velocidades variam de acordo com as condições e operadoras locais. Para obter detalhes sobre a compatibilidade com 5G, entre em contato com sua operadora e consulte apple.com/br/iphone/cellular. **A duração da bateria varia de acordo com o uso e a configuração. Consulte apple.com/br/batteries para obter mais informações. ***A tela tem bordas arredondadas que se ajustam ao design curvo do aparelho dentro da sua forma retangular. Quando medida como um retângulo, a tela tem 6,68 polegadas na diagonal. A área real de visualização é menor. ****Disponível ainda em 2021. *****O iPhone 13 Pro Max é resistente a respingos, água e poeira e foi testado em condições controladas em laboratório, classificado como IP68 segundo a norma IEC 60529. A resistência a respingos, água e poeira não é uma condição permanente e pode diminuir com o tempo. Não tente recarregar um iPhone molhado. Veja instruções de limpeza e secagem no Manual do Usuário.",
+			"categoria": 3,
+			"altura": 2.81,
+			"largura": 9.62,
+			"comprimento": 16.8,
+			"peso": 275
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 14,
+		"fields": {
+			"ativo": true,
+			"nome": "Smartphone Motorola G60s 128GB Verde 4G - 6GB RAM Tela 6,8” Câm. Quádrupla + Selfie 16MP",
+			"slug": "motorola-g60s",
+			"valor_unitario": 1799.99,
+			"descricao": "A revolução tecnológica está em suas mãos! O smartphone Verde G60s da Motorola traz uma memória de 128GB para você guardar fotos, vídeos e lembranças inesquecíveis sem se preocupar em ficar sem espaço. A memória RAM de 6GB, a tecnologia 4G e o processador Octa-Core vão te proporcionar a melhor das experiências na hora de usar aplicativos, mesmo que sejam pesados. A tela Max Vision de 6,8\" é FHD+ e possui uma definição incrível para que você veja os vídeos e fotos capturados pelas maravilhosas quatro câmeras traseiras ou a câmera de selfie. Ah, se quiser mais que um chip nesse smartphone, fique tranquilo que o G60s é dual chip!",
+			"categoria": 3,
+			"altura": 16.97,
+			"largura": 7.59,
+			"comprimento": 0.9,
+			"peso": 212
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 15,
+		"fields": {
+			"ativo": true,
+			"nome": "iPhone SE Apple 64GB Branco 4,7” iOS",
+			"slug": "iphone-se-apple",
+			"valor_unitario": 2699.09,
+			"descricao": "O iPhone SE é o iPhone de 4,7 polegadas* mais poderoso até hoje. Ele vem com o chip A13 Bionic, o mais rápido em um smartphone, e desempenho impressionante em apps, jogos e fotos. Modo Retrato para você fazer fotos com qualidade de estúdio e seis efeitos de iluminação. Nova geração do HDR Inteligente que revela detalhes surpreendentes em luzes e sombras. E vídeo 4K com qualidade de cinema. Ele ainda tem todos os recursos avançados do iOS, bateria de longa duração** e é resistente à água***. Tudo o que você adora no iPhone, agora em um formato mais compacto.Avisos legais*O tamanho da tela é medido na diagonal.**A duração da bateria varia de acordo com o uso e a configuração. Consulte o site do fabricante para obter mais informações.***O iPhone SE é resistente a respingos, água e poeira e foi testado em condições controladas em laboratório, classificado como IP67 segundo a norma IEC 60529 (profundidade máxima de um metro por até 30 minutos). A resistência a respingos, água e poeira não é uma condição permanente e pode diminuir com o tempo. Não tente recarregar um iPhone molhado. Veja instruções de limpeza e secagem no Manual do Usuário. Danos decorrentes de contato com líquidos não estão incluídos na garantia.****Carregadores sem fio padrão Qi vendidos separadamente.",
+			"categoria": 3,
+			"altura": 13.84,
+			"largura": 6.73,
+			"comprimento": 0.73,
+			"peso": 148
+		}
+	},
+	{
+		"model": "core.Produto",
+		"pk": 16,
+		"fields": {
+			"ativo": true,
+			"nome": "LG K61 128GB Branco 4G Octa-Core - 4GB RAM 6,53” Câm. Quádrupla + Selfie 16MP",
+			"slug": "lg-k61",
+			"valor_unitario": 1319.99,
+			"descricao": "Para você que busca um Smartphone novo para você ou para presentear alguém que ama, opte pelo LG K61 na cor branca.Ele tem câmera traseira quádrupla de 48MP + 8MP + 5MP + 2MP com Zoom digital de 4x e Selfie de 16MP com Flash LED, detector de faces e foco automático, tudo para você tirar fotos com alta qualidade.Conta com tela Hole in Display FHD+ de 6,53\", 128GB de memória interna para armazenar fotos, vídeos e vários aplicativos, 4GB de memória RAM e processador Media Tek MT6762 Octa Core de 2.3GHz.E ainda, tem sensor de impressão digital, bateria de 4000mAh que dura o dia todo e é Dual Chip, podendo usar a tecnologia 4G de 2 operadoras que você escolher.",
+			"categoria": 3,
+			"altura": 17.4,
+			"largura": 9.1,
+			"comprimento": 5.8,
+			"peso": 377.5
+		}
+	}
+]

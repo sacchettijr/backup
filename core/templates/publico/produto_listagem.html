@@ -1,0 +1,49 @@
+{% extends 'base/base_publico.html' %}
+{% load static %}
+{% block conteudo %}
+<div class="row">
+	<h1 style="color: white;">{{ categoria_nome }}</h1>
+</div>
+{% if produtos %}
+<div class="row d-flex justify-content-start">
+	{% for produto in produtos %}
+	<div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-3">
+		<div class="card text-center" style="width: 100%;">
+			{% for produto_imagem in produtos_imagens %}
+			{% if produto.pk == produto_imagem.produto.pk %}
+			<img src="{{ produto_imagem.imagem.url }}" class="card-img-top"
+			     alt="Imagem da categoria {{ produto.pk }}" height="150" width="300">
+			{% endif %}
+			{% endfor %}
+			<div class="card-body">
+				<h5 class="card-title">{{ produto.nome }}</h5>
+				<h4 style="color: #f78000;">R$ {{ produto.valor_unitario }}</h4>
+				<!-- TODO: apagar esse trecho do id -->
+				<p>
+
+					<small>
+						ID: {{ produto.pk }}
+					</small>
+				</p>
+			</div>
+			<div class="card-footer">
+				<a href="{% url 'produto' produto.slug %}" class="btn btn-primary my-1">Ver detalhes</a>
+				<a href="#" class="btn btn-success my-1">
+					Carrinho
+					<i class="fas fa-shopping-cart"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% else %}
+<div class="row justify-content-center">
+	<div class="col-6">
+		<h4 class="alert alert-dark" role="alert">
+			Nenhum item recuperado
+		</h4>
+	</div>
+</div>
+{% endif %}
+{% endblock conteudo %}
